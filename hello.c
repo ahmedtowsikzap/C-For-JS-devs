@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>      /*preprocessor command & std for standard
+and io means input and output  */
 int main(){
-    printf("hellow wolrd\n");
-    return 0;
+    printf("I like cats\n");   /*anything withing this set of curly braces works with main function  */
+    return 0;     // Mostly like a period
 }
