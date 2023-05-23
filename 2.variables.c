@@ -15,7 +15,10 @@ char name[]  ="AHmed"; //Array of chracter
 
 printf("You are %d years old\n", age); //% d for decimal or placeholder
 
-printf("hellow %s", name); //in this case %s is for string data
+printf("hellow %s\n", name); //in this case %s is for string data
+
+printf("your average grade is %c\n", grade); // %c for character varibale
+printf("Your GPA is literally %f\n", GPA); // %f for float 
 
 return 0;
 }
