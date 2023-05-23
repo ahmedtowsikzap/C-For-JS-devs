@@ -23,6 +23,19 @@ bool e = false;     // TRUE OR FALSE 1 is for ture 0 for false 1 byte of memory
 printf("%d\n", e);
 
 
+// A WHOLE INTEGER -128 to +127 to a char
+
+char f = 120;
+printf("%c\n", f);
+
+//UNSIGNED KEYWORD 
+unsigned char g = 146;
+printf("%d", g);
+
+
+//SHORT INTS
+
+
 
     return 0;
 }
