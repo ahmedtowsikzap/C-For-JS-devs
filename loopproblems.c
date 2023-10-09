@@ -2,22 +2,21 @@
 
 int main(){
 
- char x;
- scanf("%c", &x);
+ int a,b,c;
 
- if(x>='0' && x<='9'){
-   printf("IS DIGIT\n");
+ scanf("%d %d %d", &a,&b,&c);
+
+ if(a>b && a>c){
+
+   printf("%d\n",a);
+ }
+ else if(b>a && b>c){
+   printf("%d\n",b);
  }
  else{
-   printf("ALPHA\n");
-   if(x>='a' && x<='z'){
-      printf("IS SMALL\n");
-   }
-   else{
-      printf("IS CAPITAL\n");
-   }
- }
 
+   printf("%d\n",c);
+ }
 
     return 0;
 }
