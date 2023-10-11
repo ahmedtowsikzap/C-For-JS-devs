@@ -16,15 +16,17 @@ int main(){
 
   scanf("%d", &x);
 
-  for(int i=0;i<=A[i]; i++){
+  int ans=-1;
 
-        if(A[i] == i){
-            printf("%d", A[i]);
-        }
-        else{
-            printf("-1");
+  for(int i=0;i<n; i++){
+
+        if(A[i] == x){
+            ans=i;
+            break;
         }
   }
+  printf("%d", ans);
+  
 
     return 0;
 }
