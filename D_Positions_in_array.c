@@ -13,7 +13,7 @@ int main(){
 
     if(Arr[i]<=10){
     
-        Arr[i]= Arr[i];
+        Arr[i]= Arr[i]; /// aikhne direct print na kore jodi set kore porer ta te korte jai tahole ki korbo????
     }
   }
 
