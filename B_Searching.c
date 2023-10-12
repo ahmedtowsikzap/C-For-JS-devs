@@ -20,7 +20,7 @@ int main(){
 
   for(int i=0;i<n; i++){
 
-        if(A[i] == x){
+        if(A[i] == x){ 
             ans=i;
             break;
         }
