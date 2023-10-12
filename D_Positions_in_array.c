@@ -7,21 +7,17 @@ int main(){
 
   int Arr[n];
 
+  int b[n];
+
   for(int i=0; i<n; i++){
 
     scanf("%d", &Arr[i]);
 
     if(Arr[i]<=10){
     
-        Arr[i]= Arr[i]; /// aikhne direct print na kore jodi set kore porer ta te korte jai tahole ki korbo????
+    printf("A[%d] = %d\n", i, Arr[i]);
     }
   }
-
- for(int i=0; i<n; i++){
-
-    printf("A[%d] = %d\n", i, Arr[i]);
-  }
-  
 
   
     return 0;
