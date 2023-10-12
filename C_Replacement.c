@@ -10,7 +10,8 @@ int main(){
   for(int i=0; i<n; i++){
 
     scanf("%d", &A[i]);
-      if(A[i]>0){
+
+    if(A[i]>0){
 
         A[i] = 1;
     }
@@ -19,6 +20,7 @@ int main(){
     }
   }
   
+
   for(int i=0; i<n; i++){
 
     printf("%d ", A[i]);
