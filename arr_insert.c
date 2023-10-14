@@ -17,15 +17,21 @@ int main(){
 
   scanf("%d %d", &position,&value);
 
-  for(int i=n; i>=position+1; i--){
+  for(int i=n; i>=position+1; i--){ // Problem in this LOOP 
     arr[i] = arr[i-1];
+    // Arr[x] = Arr[x-1] 
   }
 
   for(int i=0; i<=n; i++){ // or we can use n+1
      printf("%d ", arr[i]);
   }
 
-  arr[position]= value;
+  arr[position]= value; // set the value of x position whatever I want!!
+
+
+  for(int i=0; i<n; i++){ // print the updated array
+     printf("%d ", arr[i]);
+  }
 
 
 
