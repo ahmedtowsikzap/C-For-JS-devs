@@ -29,7 +29,7 @@ int main(){
   arr[position]= value; // set the value of x position whatever I want!!
 
 
-  for(int i=0; i<n; i++){ // print the updated array
+  for(int i=0; i<=n; i++){ // print the updated array
      printf("%d ", arr[i]);
   }
 
