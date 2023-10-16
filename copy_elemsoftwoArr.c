@@ -14,9 +14,10 @@ int main(){
   }
 
   int m;
-  int arr2[m];
 
   scanf("%d", &m);
+  int arr2[m];
+
   for(int i=0; i<m; i++){
     scanf("%d", &arr2[i]);
   }
@@ -29,7 +30,7 @@ int main(){
 
   }
 
-  int i=n; // Problem on this loop and the concepts behind it
+  int i=n; // 
   for(int j=0; j<m; j++){
 
     finalArr[i] = arr2[j];
