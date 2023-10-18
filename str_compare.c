@@ -17,7 +17,7 @@ int main(){
     else if(a[i] == '\0'){
 
         printf("A choto");
-        break;
+        break; 
     }
      else if(b[i] == '\0'){
 
