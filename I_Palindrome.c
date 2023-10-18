@@ -12,20 +12,17 @@ int main(){
 
  while(i<j){
 
-  if(s[i] == s[j]){
+  if(s[i]!= s[j]){
 
-    printf("YES\n");
-
-    return 0;
-
-  }
-  else{
-  
     printf("NO\n");
     return 0;
+  
+
   }
+  i++;
+  j--;
  }
 
-
+printf("YES\n");
     return 0;
 }
