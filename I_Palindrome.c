@@ -1,9 +1,31 @@
 #include<stdio.h>
+#include<string.h>
 
 int main(){
- char s[10000000]
+ char s[1001];
+ scanf("%s", s);
+
+ int len = strlen(s);
+
+ int i=0;
+ int j=len-1;
+
+ while(i<j){
+
+  if(s[i] == s[j]){
+
+    printf("YES\n");
+
+    return 0;
+
+  }
+  else{
   
-  // s[i] length ber korbo 
-  
+    printf("NO\n");
+    return 0;
+  }
+ }
+
+
     return 0;
 }
