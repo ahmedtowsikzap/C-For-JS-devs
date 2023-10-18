@@ -6,19 +6,20 @@ int main(){
   int n; 
 
   scanf("%d", &n); // number of testcase
-
+  getchar();
   while(n--){
 
-    char a[101];
-    scanf("%s", a);
-    // fgets(a, 101, stdin);
-    int len = strlen(a);
-    if(len<10){
+    char b[1001];
+    // scanf("%s", b);
+    fgets(b,sizeof(b), stdin);
+    // printf("%s", b);
+    int len = strlen(b)-1;
+    if(len<=10){
 
-        printf("%s\n");
+        printf("%s", b);
     }
     else{
-        printf("%c%d%c\n", a[0], len-2, a[len-1]);
+        printf("%c%d%c\n", b[0], len-2, b[len-1]);
     }
 
   }
