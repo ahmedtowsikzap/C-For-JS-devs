@@ -15,14 +15,15 @@ int cnt[7]= {0};
 
 for(int i=0; i<n;i++){
 
-    int val = arr[i];
 
-    cnt[val]++;
+    cnt[arr[i]]++;
+    printf(" When I is: %d value of cunt %d\n", i, cnt[arr[i]]);
 }
+
 
 
 for(int i=0; i<=6; i++){
-    printf("%d - %d\n", i, cnt[i]);
+  printf("index%d - %d\n", i, cnt[i]);
 }
-    return 0;
+ return 0;
 }
