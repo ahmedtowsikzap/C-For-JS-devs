@@ -5,8 +5,8 @@ int main(){
 int n,s,k;
 scanf("%d", &n);
 
-s=n-1;
-k=1;
+s=0;
+k=(2*n)-1;
 
 
 for (int i = 0; i < n; i++)
@@ -19,8 +19,8 @@ for (int i = 0; i < n; i++)
         printf("*");
     }
     //Line finsished
-    s--;
-    k=k+ 2;
+    s++;
+    k=k-2;
     printf("\n");
 }
 
