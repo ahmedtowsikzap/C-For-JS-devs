@@ -16,8 +16,9 @@ int sum(int x, int y ){
 
 int main(){
 
-  int total = sum(10, 20);
 
-  printf("%d", total);
+  printf("%d",sum(10,20));
+  printf("%d",sum(102,20));
+  printf("%d",sum(10,34));
     return 0;
 }
