@@ -10,7 +10,7 @@ int main(){
 
  s=n-1;
 
- for(int i=0; i<n; i++){
+ for(int i=1; i<=2*n; i++){
    
    for(int j=1; j<=s; j++){
 
@@ -26,7 +26,7 @@ int main(){
    k= k+2;
    printf("\n");
    }
-   else if(i>n){
+   else {
    s++;
    k= k-2;
    printf("\n");
@@ -36,3 +36,10 @@ int main(){
 
     return 0;
 }
+//    *
+//   ***
+//  *****
+// *******
+//  *****
+//   ***
+//    *
