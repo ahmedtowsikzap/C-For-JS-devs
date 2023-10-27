@@ -3,9 +3,10 @@
 int main(){
 
 
-  int n,k=4;
+  int n,k;
 
   scanf("%d", &n);
+  k=n;
 
   for(int i=1; i<=n;i++){
 
