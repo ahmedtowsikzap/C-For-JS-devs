@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-char char_to_asii(char c){
+int char_to_asii(int c){
 
 
     return c;
