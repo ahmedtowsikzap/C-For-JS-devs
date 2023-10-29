@@ -3,11 +3,7 @@
 
 void fun(int *arr, int n){
 
-
-for(int i=0; i<5; i++){
-
-    printf("%d ", arr[i]);
-}
+*(arr+2)= 500;
 
 }
 
