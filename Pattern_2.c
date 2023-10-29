@@ -18,9 +18,9 @@ for(int i=1; i<=n; i++){
         printf(" ");  
     }
 
-    for(int j=k; j>0; j--){
+    for(int j=k; j>0; j--){ //
 
-        printf("%d", j);
+        printf("%d", j); //1 
     }
     s--;
     k++;
