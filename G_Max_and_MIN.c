@@ -2,7 +2,7 @@
 #include<limits.h>
 
 
-int minmax(int arr[],int n){
+void minmax(int arr[],int n){
 
 int min =INT_MAX;
 int max = INT_MIN;
