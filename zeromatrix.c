@@ -46,7 +46,7 @@ int elelment= row*col;
   else{
 
 
-    printf("It s not zero matrix");
+    printf("not zero matrix");
   }
 
 
