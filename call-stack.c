@@ -9,8 +9,7 @@ void world(){
 void hello(){
 
     printf("hello\n");
-    world();
-    printf("hekk ");
+    world(); 
 }
 
 
