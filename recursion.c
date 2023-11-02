@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-void fun(){
+void fun(int i){
 
-    printf("hello\n");
-    fun();
+    printf("%d", i);
+    fun(i+1);
 }
 
 int main(){
 
 
-  fun();
+  fun(1);
     return 0;
 }
