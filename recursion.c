@@ -2,7 +2,9 @@
 
 void fun(int i){
 
-    printf("%d", i);
+  if(i==6) return; // // Base Case;
+
+    printf("%d\n", i);
     fun(i+1);
 }
 
