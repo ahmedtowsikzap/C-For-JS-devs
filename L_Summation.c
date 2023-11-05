@@ -11,18 +11,18 @@ int Sum(int A[], int N, int index) {
 }
 
 int main() {
-    int N;
-    scanf("%d", &N);
+    int n;
+    scanf("%d", &n);
 
-    int A[N];
+    int Arr[n];
 
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &A[i]);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &Arr[i]);
     }
 
-    int sum = Sum(A, N, 0);
+    int sum = Sum(Arr, n, 0);
 
-    printf("%d\n", sum);
+    printf("%d", sum);
 
     return 0;
 }
