@@ -1,2 +1,1 @@
-
-    printf("world\n
+d
