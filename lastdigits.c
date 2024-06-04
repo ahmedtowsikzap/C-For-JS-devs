@@ -7,7 +7,12 @@ int main(){
 
   scanf("%d", &n);
 
+  while(n!=0){
 
-  int i = 0;
+    n % 10;
+    n = n / 10;
+  }
+
+  
     return 0;
 }

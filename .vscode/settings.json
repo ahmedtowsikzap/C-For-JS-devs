@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "limits": "c"
+        "limits": "c",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp"
     }
 }

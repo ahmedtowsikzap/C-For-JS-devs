@@ -1,0 +1,1 @@
+{"name":"Local: A_Hello","url":"c:\\Users\\ahmed\\C-For-JS-devs\\A_Hello.cpp","tests":[{"id":1717083912792,"input":"programmer\n","output":"Hello, programmer"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ahmed\\C-For-JS-devs\\A_Hello.cpp","group":"local","local":true}
