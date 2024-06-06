@@ -1,21 +1,34 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
 using namespace std;
+
+
 int main(){
-   int a;
-   int b;
-   int c;
-   int d;
 
-   cin>>a>>b>>c>>d;
-   a%=100;
-   b%=100;
-   c%=100;
-   d%=100;
-   int m=a*b*c*d;
-   if(m%100<=9){
-   cout<<0;
+int n,q;
 
-   }
-   cout<<m%100;
+cin>>n>>q;
+
+int a[n];
+
+for(int i=0; i<n; i++){
+
+   cin>>a[i];
+}
+
+while(q--){
+ 
+  int l,r;
+  cin>>l>>r;
+  l--;
+  r--;
+  int sum=0;
+  for(int i=l; i<=r; i++){
+       
+       sum+=a[i];
+  }
+  cout<<sum<<endl;
+}
    return 0;
+
 }
